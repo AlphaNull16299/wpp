@@ -1,0 +1,1 @@
+while true; do python3 sueqk.py;done
