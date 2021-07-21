@@ -28,7 +28,7 @@ if update == "yes":
         os._exit(0)
 print("準備中だよ")
 #referrer = input("[#] Enter the WARP+ ID:")
-referrer = "859dc0a2-9adb-421e-8941-12223517c430"
+referrer = "93026e0e-1769-40dd-85e9-1c63c594ff3a"
 global proxytype
 proxytype = {}
 global proxy_list
