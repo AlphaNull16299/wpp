@@ -1,15 +1,30 @@
-name: Warp+ Fuck off
+
+#This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python application
 
 on:
   push:
-@@ -20,10 +20,10 @@ jobs:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
         python-version: 3.9
     - name: sin
       run:
         pip install requests
-
-    - name: うんち
+    
+    - name: アナルがよく締まります
       run: 
         sh main.sh
