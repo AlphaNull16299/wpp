@@ -53,7 +53,7 @@ def get_proxies_async():
     global proxy_list
     while True:
         proxytype = {}
-        proxy_list = requests.get("https://api.proxyscrape.com/?request=displayproxies&proxytype=http&country=all&ssl=all&timeout=10000",timeout=500).text.split("\n")
+        proxy_list = requests.get("https://api.good-proxies.ru/get.php?count=&ping=8000&time=600&works=50&key=3269305ce8094af10e5933fe67db8529",timeout=500).text.split("\n")
         print('Proxy updated!')
         time.sleep(60)
 
