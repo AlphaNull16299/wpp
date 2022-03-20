@@ -30,7 +30,7 @@ print ("[-] SITE: midokuriserver.com")
 print ("[-] while true で回すことをおすすめします")
 print ("--------")
 #referrer = input("[#] Enter the WARP+ ID:")
-referrer = "d8d0c530-2b81-4944-b06a-787d00646044"
+referrer = "859dc0a2-9adb-421e-8941-12223517c430"
 global proxytype
 proxytype = {}
 global proxy_list
