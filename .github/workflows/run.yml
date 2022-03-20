@@ -27,4 +27,4 @@ jobs:
     
     - name: アナルがよく締まります
       run: 
-        sh main.sh
+        python3 wp-plus.py
