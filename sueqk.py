@@ -39,7 +39,7 @@ proxy_list = []
 def get_proxies():
     global proxy_list
 #    proxytype = {}
-    temp_proxy_list = requests.get("https://api.proxyscrape.com/?request=displayproxies&proxytype=http&country=all&ssl=all&timeout=10000",timeout=500).text+"\n"
+    temp_proxy_list = requests.get("https://api.good-proxies.ru/get.php?type%5Bhttp%5D=on&count=&ping=50000&time=600&works=100000&key=3269305ce8094af10e5933fe67db8529",timeout=500).text+"\n"
     temp_proxy_list = temp_proxy_list + requests.get("https://www.proxy-list.download/api/v1/get?type=http",timeout=500).text+"\n"
     temp_proxy_list = temp_proxy_list + requests.get("https://www.proxyscan.io/download?type=http",timeout=500).text+"\n"
     temp_proxy_list = temp_proxy_list + requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",timeout=500).text+"\n"
