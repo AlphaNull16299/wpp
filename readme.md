@@ -9,3 +9,5 @@ Google colabで回す
 Github Actionsでぶん回す
 
 なんか適当に
+
+にがー
